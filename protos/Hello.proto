@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package demo;
+
+message Request {    
+}
+
+message Response {    
+}
+
+service Hello {
+    rpc call(Request) returns (Response);
+}
